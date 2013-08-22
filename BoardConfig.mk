@@ -27,11 +27,11 @@
 -include vendor/samsung/jfltei337/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jactive, jactivelte, jactiveltexx
+TARGET_OTA_ASSERT_DEVICE := jactiveltexx
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/jactiveltexx/
-TARGET_KERNEL_CONFIG := jf_defconfig
+TARGET_KERNEL_CONFIG := cyanogen_jf_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := jactive_eur_defconfig
 
 # loki
