@@ -27,7 +27,7 @@
 -include vendor/samsung/jactiveltexx/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jactive,jactiveltexx
+TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/jactiveltexx/
