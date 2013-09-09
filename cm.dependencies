@@ -8,11 +8,11 @@
     "target_path": "device/samsung/msm8960-common"
   },
   {
-    "repository": "android_device_samsung_jf-common",
+    "repository": "android_device_samsung_jactivelte",
     "target_path": "device/samsung/jf-common"
   },
   {
-    "repository": "android_kernel_samsung_jactiveltexx",
+    "repository": "android_kernel_samsung_jactivelte",
     "target_path": "kernel/samsung/jactiveltexx"
   },
   {
