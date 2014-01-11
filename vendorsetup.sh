@@ -1,2 +1,3 @@
 add_lunch_combo cm_jactiveltexx-eng
+add_lunch_combo cm_jactiveltexx-userdebug
 
