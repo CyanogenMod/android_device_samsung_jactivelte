@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/jactiveltexx/full_jactiveltexx.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/gsm.mk)
+#$(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
