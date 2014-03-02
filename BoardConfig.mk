@@ -36,4 +36,4 @@ TARGET_KERNEL_VARIANT_CONFIG := cyanogen_jf_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 
 # loki
-#TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/msm8960-common/loki3
+#TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jf-common/loki
