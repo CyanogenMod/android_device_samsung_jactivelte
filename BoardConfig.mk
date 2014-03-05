@@ -37,3 +37,6 @@ TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 
 # loki
 #TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jf-common/loki
+
+TARGET_PROVIDES_CAMERA_HAL := false
+USE_DEVICE_SPECIFIC_CAMERA := true
