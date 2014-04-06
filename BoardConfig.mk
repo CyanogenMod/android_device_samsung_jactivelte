@@ -33,10 +33,6 @@ TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx
 TARGET_KERNEL_SOURCE := kernel/samsung/jactiveltexx/
 TARGET_KERNEL_CONFIG := cyanogen_jf_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := jactive_eur_defconfig
-TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
-
-# loki
-#TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jf-common/loki
 
 TARGET_PROVIDES_CAMERA_HAL := false
 USE_DEVICE_SPECIFIC_CAMERA := true
