@@ -21,7 +21,7 @@
 #
 
 # inherit from common JF
--include device/samsung/jf-common/BoardConfigCommon.mk
+-include device/samsung/jactivelte-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jactiveltexx/BoardConfigVendor.mk
@@ -31,7 +31,7 @@ TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/jactiveltexx/
-TARGET_KERNEL_CONFIG := cyanogen_jf_defconfig
+TARGET_KERNEL_CONFIG := cyanogen_jactivelte_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := jactive_eur_defconfig
 
 TARGET_PROVIDES_CAMERA_HAL := false
