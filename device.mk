@@ -28,4 +28,4 @@ PRODUCT_COPY_FILES += \
     device/samsung/jactiveltexx/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
 # Inherit from jf-common
-$(call inherit-product, device/samsung/jactivelte-common/jf-common.mk)
+$(call inherit-product, device/samsung/jactivelte-common/jactivelte-common.mk)
