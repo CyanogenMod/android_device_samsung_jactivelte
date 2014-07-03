@@ -21,18 +21,21 @@
 #
 
 # inherit from common JF
--include device/samsung/jactivelte-common/BoardConfigCommon.mk
+-include device/samsung/jflte/BoardConfig.mk
 
 # inherit from the proprietary version
--include vendor/samsung/jactiveltexx/BoardConfigVendor.mk
+-include vendor/samsung/jactivelte/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx
 
+# We are not a unified device :(
+TARGET_UNIFIED_DEVICE :=
+TARGET_INIT_VENDOR_LIB :=
+TARGET_LIBINIT_DEFINES_FILE :=
+
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/jactiveltexx/
-TARGET_KERNEL_CONFIG := cyanogen_jactivelte_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := jactive_eur_defconfig
 
-TARGET_PROVIDES_CAMERA_HAL := false
+TARGET_PROVIDES_CAMERA_HAL := true
 USE_DEVICE_SPECIFIC_CAMERA := true

@@ -10,4 +10,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jactiveltexx TARGET_DEVICE=jactivel
 
 PRODUCT_DEVICE := jactiveltexx
 PRODUCT_NAME := cm_jactiveltexx
-
