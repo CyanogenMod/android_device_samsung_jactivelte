@@ -35,7 +35,7 @@ TARGET_INIT_VENDOR_LIB :=
 TARGET_LIBINIT_DEFINES_FILE :=
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/jactiveltexx/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/jactivelte/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG         := cyanogen_jf_defconfig
