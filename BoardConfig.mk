@@ -21,18 +21,13 @@
 #
 
 # inherit from common JF
--include device/samsung/jflte/BoardConfig.mk
+include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jactivelte/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx
-
-# We are not a unified device :(
-TARGET_UNIFIED_DEVICE :=
-TARGET_INIT_VENDOR_LIB :=
-TARGET_LIBINIT_DEFINES_FILE :=
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/jactivelte/bluetooth
@@ -45,8 +40,8 @@ TARGET_PROVIDES_CAMERA_HAL := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_NEED_CAMERA_ZSL := true
 TARGET_NEED_SAMSUNG_MAGIC_ZSL_1508 := true
-TARGET_ADD_ISO_MODE_1600 := false
-TARGET_ADD_ISO_MODE_HJR := false
+TARGET_ADD_ISO_MODE_1600 := true
+TARGET_ADD_ISO_MODE_HJR := true
 TARGET_NEED_PREVIEW_SIZE_FIXUP := false
-TARGET_NEED_SAMSUNG_CAMERA_MODE := false
+TARGET_NEED_SAMSUNG_CAMERA_MODE := true
 TARGET_VIDEO_PREVIEW_ALWAYS_MAX := true

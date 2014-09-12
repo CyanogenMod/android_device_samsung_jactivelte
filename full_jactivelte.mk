@@ -20,7 +20,6 @@
 # details, it only fundamentally contains two inherit-product
 # lines, full and maguro, hence its name.
 #
- 
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -32,4 +31,4 @@ PRODUCT_NAME := full_jactivelte
 PRODUCT_DEVICE := jactivelte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-I9295
+PRODUCT_MODEL := jactivelte

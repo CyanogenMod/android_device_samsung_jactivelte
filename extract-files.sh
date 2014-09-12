@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-set -e
+#set -e
 
 export DEVICE=jactivelte
 export VENDOR=samsung
-./../jflte/extract-files.sh $@
+./../jf-common/extract-files.sh $@
