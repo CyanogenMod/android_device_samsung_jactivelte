@@ -1,11 +1,9 @@
-# SGS4A camera blobs
-
-# Useful stuff for debugging
-bin/mm-qcamera-app
-bin/mm-qcamera-test
-bin/mm-qcamera-testsuite-client
-
 # Camera
+lib/libchromatix_imx135_default_video.so
+lib/libchromatix_imx135_preview.so
+lib/libchromatix_imx135_video_hdr.so
+lib/libchromatix_imx135_video_hd.so
+lib/libchromatix_imx135_zsl.so
 lib/libchromatix_s5k3h5xa_zsl.so
 lib/libchromatix_s5k3h5xa_default_video.so
 lib/libchromatix_s5k3h5xa_animation.so
